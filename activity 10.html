@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Name | Web Developer & Designer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #e5dede;
+            color: rgb(52, 8, 244);
+            padding: 10px 0;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        .project-new {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .project-new th, .project-stats td {
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .contact-form input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sumiksha</h1>
+    <p>Web Developer & Designer</p>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>Hello! I'm Sumiksha, a passionate web developer with a love for creating beautiful and functional websites. I have experience in HTML, CSS, JavaScript, and more.</p>
+   
+    <h2>My Projects</h2>
+    <div>
+        <h3>Project 1</h3>
+        <p>A description of Project 1. This is project 1.</p>
+
+        <h3>Project 2</h3>
+        <p>A description of Project 2. This is project 2.</p>
+
+        <table class="project-new">
+            <tr>
+                <th>Project</th>
+                <th>Technologies</th>
+                <th>Completion Date</th>
+            </tr>
+            <tr>
+                <td>Project 1</td>
+                <td>HTML, CSS, JavaScript</td>
+                <td>June 2021</td>
+            </tr>
+            <tr>
+                <td>Project 2</td>
+                <td>React, Node.js</td>
+                <td>August 2024</td>
+            </tr>
+        </table>
+    </div>
+   
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label>Preferred Contact Method</label>
+        <input type="radio" id="emailContact" name="contactMethod" value="email">
+        <label for="emailContact">Email</label>
+
+        <input type="radio" id="phoneContact" name="contactMethod" value="phone">
+        <label for="phoneContact">Phone</label>
+
+        <br>
+        <input type="checkbox" id="newsletter" name="newsletter">
+        <label for="newsletter">Subscribe to Newsletter</label>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Sumiksha. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
